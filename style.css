@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap');
+
+a{
+  text-decoration: none;
+  z-index: 1;
+}
+/* h,h1,h2{
+  color: rgb(215,153,33); 
+} */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+  background: #282828;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ::selection {
+  background-color: black;
+  color: pink;
+} */
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:grey;
+  color: white;
+  width: 100%;
+  height: 60px;
+  position:relative;
+  top: 0;
+  padding: 0 20px;
+}
+.main-header h2{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 40px;
+  font-style: italic;
+  font-style: oblique 0deg;
+  margin-left: 50px;
+}
+
+.main-header img{
+  width: 40px;
+  height: auto;
+  /* margin-right: 50px; */
+  position: absolute;
+}
+.main-header .icons i{
+  font-size: 30px;
+  margin-left: 20px;
+  color:white;
+}
+.main-header .icons i:hover{
+  color: pink;
+}
+
+.content{
+  display: flex;
+  /* grid-template-columns: 1fr 4fr 1fr; */
+  /* color: black; */
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 20px 20px;
+  color: rgb(215,153,33); 
+}
+
+.content .text{
+  color: white;
+  /* grid-column: 2; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50vw;
+  height: auto;
+  /* border: 1px white solid; */
+  color: #ebdbb2; 
+}
+
+.content .text .year h1{
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 20px 30px;
+  color: rgb(215,153,33); 
+}
+.content .text .blog {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: flex-start; */
+  border: 0.5px white groove;
+  padding: 10px 0;
+  /* width: auto; */
+  display: block;
+}
+.content .text .blog p {
+  /* margin: 0;
+  padding: 0; */
+  text-align: left;
+  padding: 10px 50px;
+  margin-bottom: 10px;
+}
+.content .text .blog h1{
+  text-align: left;
+  padding: 10px 30px;
+}
+.btn{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  /* border: none; */
+  /* cursor: pointer; */
+  background:black;
+  color: rgb(215,153,33);
+  text-decoration: none;
+}
+
+
+/* blog-one */
+
+.container{
+  display: flex;
+    flex-direction: row; /* Ensures horizontal layout */
+    justify-content: space-between; /* Adds spacing between children */
+    align-items: flex-start; /* Aligns items properly */
+  width: 100%;
+  height: auto;
+  /* flex-direction: column; */
+}
+
+.shit{
+  flex: 1;
+  width: 15%;
+}
+
+.text-area{
+  margin-top: 40px;
+  flex: 2;
+  flex-direction: column;
+  width: 70%;
+  border: 0.5px white groove;
+  text-align: center;
+  padding: 20px 10px;
+  word-wrap: break-word;
+  line-height: 1.6; /* Improves text readability */
+}
+.text-area h1{
+  color: rgb(215,153,33); 
+  text-align: center;
+  font-size: 40px;
+}
+.text-area img{
+  width: 400px;
+  height: auto;
+  display: inline-block;
+}
+.text-area p{
+  text-align: left;
+  padding: 10px 20px;
+  
+}
+.text-area h2{
+  color: #ebdbb2; 
+  text-align: left;
+}
+.text-area ul{
+  /* color: #ebdbb2;  */
+  text-align: left;
+  padding: 0px 40px;
+  /* margin-bottom: 10px; */
+}
